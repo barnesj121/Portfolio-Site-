@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jonathon Barnes - Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Jonathon Barnes</h1>
+        <button id="nav-toggle">☰</button>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m Jonathon Barnes, a software developer with a Bachelor of Science in Computer Science from Xavier University. I’ve gained experience with a variety of programming languages, including Python, Java, JavaScript, and C++, and have worked on projects involving web development and database management. I'm passionate about creating applications that are both functional and intuitive, and I always seek to improve my skills. When I'm not coding, I enjoy playing pickleball and taking on new challenges in different areas.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Projects will be dynamically rendered here -->
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume/Jonathon-Barnes-Resume.pdf" download>Download Resume</a>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <button id="scrollToTopBtn" style="display:none;">↑</button>
+    
+    <footer>
+        <p>&copy; Jonathon Barnes, 2024</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
